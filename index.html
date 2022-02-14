@@ -42,7 +42,7 @@ if($_POST["message"]) {
                         My Vision
                     </h5>
                     <div class="grid-container-vision">
-                        <div id="gridItemVision">
+                        <div id="gridItemVision" class="grid-item-vision">
                             Since childhood, accesible software has played an important role in my life.  Whether it was online flash games,
                             educational software, or a cellphone, this technology has been at my fingertips for much, much longer than it hasn't.
                             I think most people my age could say the same. <br><br>
@@ -53,8 +53,8 @@ if($_POST["message"]) {
                             That's where web-based applications come in, and that's exactly what I've set out to do.
 
                         </div>
-                        <div id="gridItemImage">
-                            <img style="height: 50h; width: 50vh;" src="/img/me/self-portrait.png">
+                        <div id="gridItemImage" class="grid-item-vision">
+                            <img class="portrait" src="/img/me/self-portrait.png">
                         </div>
                         
                     </div>
@@ -66,7 +66,7 @@ if($_POST["message"]) {
                             About Me
                         </h5>
                         <div class="grid-container-about">
-                            <div class="grid-item"></div>
+                            <div class="grid-item blank-block"></div>
                             <div class=" grid-item description-block">
 
                                     I am a self-taught programmer with a focus in web development using the ASP.NET MVC design pattern.  I'm currently based in Huntsville, 
@@ -90,7 +90,7 @@ if($_POST["message"]) {
 
                 <div id="technology" class="section techSection scrollspy">
                     <h5 class="landingHeader center-align">Technologies</h5>
-                    <div class="row d-flex techRow valign-wrapper" style="margin-top: 75px;">
+                    <!-- <div class="row d-flex techRow valign-wrapper" style="margin-top: 75px;">
                         <div class="col s3 center-align"><img class="responsive-img" src="/img/tech/C_Sharp_wordmark.svg"></div>
                         <div class="col s3 center-align"><img class="responsive-img" src="/img/tech/dotnet-logo.svg"></div>
                         <div class="col s3 center-align"><img class="responsive-img" src="/img/tech/bootstrap-logo.svg"></div>
@@ -107,6 +107,22 @@ if($_POST["message"]) {
                         <div class="col s3 center-align"><img class="responsive-img" src="/img/tech/netlify-icon.svg" alt=""></div>
                         <div class="col s3 center-align"><img class="responsive-img" src="/img/tech/heroku-logo-stroke-purple.svg" alt=""></div>
                         <div class="col s3 center-align"><img class="responsive-img" src="https://img.icons8.com/ios/100/000000/postgreesql.png"/></div>
+                    </div> -->
+                    <div class="grid-container-tech">
+                        <div class="grid-item-tech"><img class="responsive-img" src="/img/tech/C_Sharp_wordmark.svg"></div>
+                        <div class="grid-item-tech"><img class="responsive-img" src="/img/tech/dotnet-logo.svg"></div>
+                        <div class="grid-item-tech"><img id="bsLogo" class="responsive-img" src="/img/tech/bootstrap-logo.svg"></div>
+                        <div class="grid-item-tech"><img class="responsive-img" src="/img/tech/materialize-seeklogo.com.svg"></div>
+
+                        <div class="grid-item-tech"><img class="responsive-img" src="/img/tech/javascript-js-seeklogo.com.svg"></div>
+                        <div class="grid-item-tech"><img class="responsive-img" src="/img/tech/Python-logo-notext.svg"></div>
+                        <div class="grid-item-tech"><img id="htmlLogo" class="responsive-img" src="/img/tech/HTML5_Badge.svg"></div>
+                        <div class="grid-item-tech"><img class="responsive-img" src="/img/tech/icons8-css3.svg"></div>
+
+                        <div class="grid-item-tech"><img class="responsive-img" src="/img/tech/Git_icon.svg"></div>
+                        <div class="grid-item-tech"><img class="responsive-img" src="/img/tech/netlify-icon.svg"></div>
+                        <div class="grid-item-tech"><img class="responsive-img" src="/img/tech/heroku-logo-stroke-purple.svg"></div>
+                        <div class="grid-item-tech"><img class="responsive-img" src="/img/tech/postgresql-icon.svg"></div>
                     </div>
                 </div>
 
