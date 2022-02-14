@@ -7,10 +7,10 @@ body {
     background-image: linear-gradient(to right,#fff3e0, white);
 }
 
-br {
+/* br {
     display: block;
     margin: 40px 0;
-}
+} */
 
 .techRow {
     display: flex;
