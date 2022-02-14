@@ -1,0 +1,249 @@
+<?php
+if($_POST["message"]) {
+    mail("rshaleydev@email.address", "Website Conection", $_POST["message"], "From: rshaleywebsite@mailinator.com");
+}
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="/css/materialize.css"  media="screen,projection"/>
+        <link href="css/site.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://kit.fontawesome.com/be2b2938bf.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <header>
+            <div class="navSection"></div>
+        </header>
+
+
+            <!-- <div class="container"> -->
+
+                <!-- <div class="parallax-container">
+                    <div class="parallax"><img src="img/backgrounds/jessica-fadel-mdNQ3R5dT6w-unsplash.jpg"></div>
+                </div> -->
+
+                <div id="home" class="section no-pad homeSection scrollspy">
+                    <div class="home-block">
+                        <div class="row" id="name">Ryan Haley</div>
+                        <div class="row" id="job">Web Developer</div>
+                    </div>
+                </div>
+
+                <div id="vision" class="section no-pad homeSection scrollspy">
+                    <h5 class="landingHeader center-align">
+                        My Vision
+                    </h5>
+                    <div class="grid-container-vision">
+                        <div id="gridItemVision">
+                            Since childhood, accesible software has played an important role in my life.  Whether it was online flash games,
+                            educational software, or a cellphone, this technology has been at my fingertips for much, much longer than it hasn't.
+                            I think most people my age could say the same. <br><br>
+
+                            We live in a physical world inseparable from a virtual one.  We owe it to ourselves to make use of that entanglement and
+                            create something really incredible.  We owe it to each other to make that something accessible.  <br><br>
+
+                            That's where web-based applications come in, and that's exactly what I've set out to do.
+
+                        </div>
+                        <div id="gridItemImage">
+                            <img style="height: 50h; width: 50vh;" src="/img/me/self-portrait.png">
+                        </div>
+                        
+                    </div>
+                </div>                
+
+                <div id="about" class="section no-pad aboutSection scrollspy">
+                    <div>
+                        <h5 class="landingHeader center-align">
+                            About Me
+                        </h5>
+                        <div class="grid-container-about">
+                            <div class="grid-item"></div>
+                            <div class=" grid-item description-block">
+
+                                    I am a self-taught programmer with a focus in web development using the ASP.NET MVC design pattern.  I'm currently based in Huntsville, 
+                                    AL, where I work full-time and practice software development in my free time. I earned my B.S. in Chemistry in 2017 and attended an 
+                                    Atmospheric Science graduate program in 2018 with the intent to enter academia as an instructor.  I quickly learned that this path was 
+                                    not what I wanted.  After withdrawing from this career path in 2019, I took with me a love of programming and decided to pursue web development 
+                                    in order to create useful, accessible applications.  <br><br>
+
+                                    My first programming language was Python, which I used primarily for scripting 
+                                    data analysis in the laboratory.  Soon came HTML, CSS, JavaScript, and eventually C#.  I discovered ASP.NET as an entry point into
+                                    professional software development and committed to learning a design pattern that would help me get my feet wet. <br><br>
+
+                                    Now with my first deployed application, I have begun developing further applications (more to come!).  I have also begun searching for
+                                    junior-level developer positions and am looking for employment.
+
+                            </div>
+                            <div class="col s1"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="technology" class="section techSection scrollspy">
+                    <h5 class="landingHeader center-align">Technologies</h5>
+                    <div class="row d-flex techRow valign-wrapper" style="margin-top: 75px;">
+                        <div class="col s3 center-align"><img class="responsive-img" src="/img/tech/C_Sharp_wordmark.svg"></div>
+                        <div class="col s3 center-align"><img class="responsive-img" src="/img/tech/dotnet-logo.svg"></div>
+                        <div class="col s3 center-align"><img class="responsive-img" src="/img/tech/bootstrap-logo.svg"></div>
+                        <div class="col s3 center-align"><img class="responsive-img" src="/img/tech/materialize-seeklogo.com.svg"></div>
+                    </div>
+                    <div class="row d-flex techRow valign-wrapper">
+                        <div class="col s3 center-align"><img class="responsive-img" src="/img/tech/javascript-js-seeklogo.com.svg"></div>
+                        <div class="col s3 center-align"><img class="responsive-img" src="img/tech/Python-logo-notext.svg"></div>
+                        <div class="col s3 center-align"><img class="responsive-img" src="/img/tech/HTML5_Badge.svg"></div>
+                        <div class="col s3 center-align"><img class="responsive-img" src="/img/tech/icons8-css3.svg"></div>
+                    </div>
+                    <div class="row d-flex techRow valign-wrapper" style="margin: 0px;">
+                        <div class="col s3 center-align"><img class="responsive-img" src="/img/tech/Git_icon.svg"></div>
+                        <div class="col s3 center-align"><img class="responsive-img" src="/img/tech/netlify-icon.svg" alt=""></div>
+                        <div class="col s3 center-align"><img class="responsive-img" src="/img/tech/heroku-logo-stroke-purple.svg" alt=""></div>
+                        <div class="col s3 center-align"><img class="responsive-img" src="https://img.icons8.com/ios/100/000000/postgreesql.png"/></div>
+                    </div>
+                </div>
+
+                <div class="parallax-container">
+                    <div class="parallax"><img src="/img/backgrounds/jess-bailey-q10VITrVYUM-unsplash.jpg"></div>
+                </div>
+
+                <div id="projects" class="section projectSection scrollspy">
+                    <h5 class="landingHeader center-align">Projects & Coding Challenges</h5>
+                    <div class="container grid-container">
+                        <!-- <div class="row"> -->
+                            <div class="grid-item">
+                                <div class="card project-card">
+                                    <div class="card-image waves-effect waves-block waves-light app-image-container">
+                                        <img class="activator app-image" src="img/projects/naya-logo-outline.svg">
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title grey-text text-darken-4">
+                                            naya <br><br>
+                                            A web-based issue tracking application built using ASP.NET MVC in .NET 5. <br><br>
+                                            <a href="https://bugtracker-naya.herokuapp.com/">Preview</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="card project-card">
+                                    <div class="card-image waves-effect waves-block waves-light app-image-container">
+                                        <img class="activator app-image" src="img//projects/roboloan-logo.svg">
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title grey-text text-darken-4">
+                                            RoboLoan <br><br>
+                                            A coding challenge built using ASP.NET MVC in .NET 5. <br><br>
+                                            <a href="https://roboloan.herokuapp.com/">Preview</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="card project-card">
+                                    <div class="card-image waves-effect waves-block waves-light app-image-container">
+
+                                        <img class="activator app-image" src="img/projects/HopSkipHundred-no-outline.svg">
+
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title grey-text text-darken-4">
+                                            Hop-Skip-Hundred <br><br>
+                                            A coding challenge. <br><br>
+                                            <a href="/coding-challenges/HopSkipHundred/index.html">Preview</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="card project-card">
+                                    <div class="card-image waves-effect waves-block waves-light app-image-container">
+                                        <img class="activator app-image" src="img/projects/backtrack-logo.svg">
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title grey-text text-darken-4">
+                                            BackTrack <br><br>
+                                            A coding challenge. <br><br>
+                                            <a href="coding-challenges/Backtrack/index.html">Preview</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="card project-card">
+                                    <div class="card-image waves-effect waves-block waves-light app-image-container">
+                                        <img class="activator app-image" src="img//projects/beepboop-logo.svg">
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title grey-text text-darken-4">
+                                            BeepBoop <br><br>
+                                            A coding challenge. <br><br>
+                                            <a href="coding-challenges/BeepBoop/index.html">Preview</a> <br><br>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- </div> -->
+                        <div class="row">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="parallax-container">
+                    <div class="parallax"><img src="img/backgrounds/skyler-smith-WcAapzJLNOw-unsplash.jpg"></div>
+                </div>
+
+                <div id="contact" class="section contactSection scrollspy center-align">
+                    <h5 class="landingHeader center-align">Contact</h5>
+                        <div>   
+                            You can email me at <br> <br>
+                            <div id="contactEmail">rshaleydev@gmail.com</div> <br>
+                            or... <br> <br>
+                        </div>
+                        <!-- <div class="container">
+                            <div class="row">
+                                <form method="post" name="contact_form" enctype="multipart/form-data" action="contact.php" class="col s12">
+                                  <div class="row">
+                                    <div class="input-field col s3">
+                                      <input name="senderName" type="text">
+                                      <label for="email">Your Name</label>
+                                      <span class="helper-text" data-error="wrong" data-success="right"></span>
+                                    </div>
+                                    
+                                    <div class="input-field col s9">
+                                        <textarea name="message" id="message" type="text" class="materialize-textarea"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                  </div>
+                                  <input class="btn" type="submit" value="Send">
+                                </form>
+                            </div>
+                        </div> -->
+                    <div class="connect">
+                        <a href="#" data-target="slide-out-links" class="btn sidenav-trigger">Get Connected</a>
+                    </div>
+                    </div>
+
+                
+
+            <!-- </div> -->
+
+            
+
+        <script type="text/javascript" src="js/bin/materialize.js"></script>
+        <script type="text/javascript" src="js/bin/site.js"></script>
+    </body>
+    <footer class="page-footer" style="background-color: #a91830;">
+        <div style="color: white; padding-bottom: 10px;">
+            © 2022 Ryan Haley | rshaleydev@gmail.com
+        </div>
+    </footer>
+</html>
